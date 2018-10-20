@@ -1,0 +1,57 @@
+
+html, body {
+    height: 100%;
+    font-family: gotham-bold;
+
+    background-image: linear-gradient(300deg, #1a1325, #151617);
+}
+.navbar{
+    padding: 0em;
+    margin: 0em;
+
+}
+h1{
+   color: white;
+}
+.product-design{
+    color: #02a8f2;
+
+}
+@font-face {
+    font-family: gotham-bold;
+    src: url(/fonts/Gotham-Book.otf);
+}
+.product-design-class{
+  
+    object-fit: contain;
+    font-family: Gotham;
+    font-size: 42px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #ffffff;
+  
+}
+.padded-text{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+.we-should-talk{
+   
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 2px;
+    color: #ffffff;  
+}
+.we-should-talk span{
+    border-bottom: solid 6px #fd2e8c;
+
+  padding:0.5em 0
+}
