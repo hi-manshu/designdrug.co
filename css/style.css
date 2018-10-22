@@ -55,3 +55,131 @@ h1{
 
   padding:0.5em 0
 }
+.card-bg{
+    background-color: #29262f;
+
+}
+.card-title{
+    font-family: Gotham;
+  font-size: 23px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+.underline{
+    width: 70px;
+    height: 1px;
+    object-fit: contain;
+    opacity: 0.05;
+    border: solid 3px #ffffff;
+  display: block;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+}
+.website {
+   text-align: center;
+    object-fit: contain;
+    text-transform: uppercase;
+    margin-top: 1em;
+    border-radius: 5px;
+    background-image: linear-gradient(105deg, #3be1bd, #1a96f1);
+  }
+  .mobile-apps{
+    text-transform: uppercase;
+
+    text-align: center;
+    object-fit: contain;
+    margin-top: 1em;
+    border-radius: 5px;
+    background-image: linear-gradient(105deg, #ea33f1, #3544dc);
+  }
+  .branding {
+    text-transform: uppercase;
+
+    text-align: center;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: linear-gradient(105deg, #88dc35, #25cea7);
+  }
+  .ux {
+    text-transform: uppercase;
+    text-align: center;
+  
+     border-radius: 5px;
+    
+    background-image: linear-gradient(105deg, #fb8532, #fec731);
+  }
+  .web-apps {
+    text-align: center;
+    object-fit: contain;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-image: linear-gradient(105deg, #f5505f, #9f026c);
+  }
+  .ui {
+    text-align: center;
+    object-fit: contain;
+        text-transform: uppercase;
+
+    border-radius: 5px;
+    background-image: linear-gradient(105deg, #8d32f5, #61dec7);
+  }
+  .font-design{
+    height: 9px;
+    text-align: center;
+    object-fit: contain;
+    font-family: Gotham;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; 
+  }
+  .card-services{
+      display: none;
+  }
+  .card-contact{
+    display: none;
+}
+.display{
+  visibility: hidden;
+}
+  .email{
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    align-content: center;
+    width: 209px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  
+  .image-gmail{
+    object-fit: contain;
+
+    /* vertical alignment of the inline element */
+
+  }
+  .atuldesigndrugco {
+    margin: 0 auto;
+    object-fit: contain;
+    font-family: Gotham;
+    align-content: center;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: #474747;
+  }

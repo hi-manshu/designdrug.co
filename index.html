@@ -6,9 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="/script/file.js"></script>
     <title>Design Drug</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
@@ -26,21 +29,106 @@
     <div class=" row h-75">
         <div class="col  my-auto ">
             <div class="col">
-                <h1 class="product-design-class">We are a <span class="product-design">product design</span> studio led
+                <h1 class="product-design-class">We are a <span class="product-design" id="product-design">product design</span> studio led
                     by two highly motivated deisgners</h1>
             </div>
             </br>
             <div class="col padded-text">
-                <p class="we-should-talk"><span class="we"> WE SHOULD TALK</p></span>
+                <p class="we-should-talk"><span class="we" id="we-should-talk"> WE SHOULD TALK</p></span>
             </div>
-            <
         </div>
-
-
         <div class="col my-auto">
+            <div class="row display " id="main-layout">
+                <div class="col-md-4"> </div>
+                <div class="col-md-8 card card-bg ">
+                    <div class="cald card-services" id="card-services">
+                        <div class="card-body card-title align-items-center">
+                            <h4>We create timeless products for all platform</h4>
+                            <br />
+                            <div class="underline align-self-center"></div>
+                            <div class="row align-self-center">
+                                <div class="col">
+                                    <p class=" website"><span class="font-design">Websites</span></p>
+                                    <p class="branding"><span class="font-design">branding</span></p>
+                                    <p class="web-apps"><span class="font-design">Web Apps</span></p>
+                                </div>
+                                <div class="col">
+                                    <p class="mobile-apps"><span class="font-design">Mobile Apps</span></p>
+                                    <p class="ux"><span class="font-design">User experience</span></p>
+                                    <p class="ui"><span class="font-design">User Interfaces</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cald  card-contact" id="card-contact">
+                        <div class="card-body card-title align-items-center">
+                            <h4><span class="coffee-text">We don't charge for coffee & conversations</span></h4>
+                            <br />
+                            <div class="underline align-self-center"></div>
+                            <div class="row align-self-center">
+                                <div class="col">
+                                    <div class="row email">
+                                        <img class="image-gmail" src="assets/contact.svg" alt="Design Drug">
+                                    </div>
+                                    <div class="row email">
+                                        <img class="image-gmail" src="assets/whatspp.svg" alt="Design Drug">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
         </div>
 
     </div>
+    </div>
+
+    </div>
 </body>
+<script>
+var weShouldTalk = document.getElementById("we-should-talk");
+var contactCard = document.getElementById("card-contact");
+var servicesCard = document.getElementById("card-services");
+var productDesign = document.getElementById("product-design");
+var mainDesign = document.getElementById("main-layout")
+
+
+weShouldTalk.addEventListener("mouseover", function () {
+    // highlight the mouseover target
+    mainDesign.style.visibility = "visible";
+        contactCard.style.display = "block";
+        servicesCard.style.display = "none";
+        
+        
+
+    
+    // reset the color after a short delay
+    setTimeout(function () {
+
+    }, 500);
+}, false);
+productDesign.addEventListener("mouseover", function () {
+    // highlight the mouseover target
+    mainDesign.style.visibility = "visible";
+
+        contactCard.style.display = "none";
+        servicesCard.style.display = "block";
+
+    
+    // reset the color after a short delay
+    setTimeout(function () {
+        
+    }, 500);
+}, false);
+</script>
 
 </html>
