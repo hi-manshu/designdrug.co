@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="152" viewBox="0 0 148 152">
+  <defs>
+    <linearGradient id="two-a" x1="0%" x2="99.347%" y1="0%" y2="99.347%">
+      <stop offset="0%" stop-color="#EA33F1"/>
+      <stop offset="100%" stop-color="#3544DC"/>
+    </linearGradient>
+    <linearGradient id="two-b" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB8532"/>
+      <stop offset="100%" stop-color="#FEC731"/>
+    </linearGradient>
+    <linearGradient id="two-c" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#8D32F5"/>
+      <stop offset="100%" stop-color="#61DEC7"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="147.027" height="40" fill="url(#two-a)" fill-rule="nonzero" rx="5"/>
+    <text fill="#FFF" font-family="Helvetica" font-size="10">
+      <tspan x="40.377" y="24.5">MOBILE APPS</tspan>
+    </text>
+    <g transform="translate(0 56)">
+      <rect width="147.027" height="40" fill="url(#two-b)" fill-rule="nonzero" rx="5"/>
+      <text fill="#FFF" font-family="Helvetica" font-size="10">
+        <tspan x="26.488" y="24.5">USER EXPERIENCE</tspan>
+      </text>
+    </g>
+    <g transform="translate(0 112)">
+      <rect width="147.027" height="40" fill="url(#two-c)" fill-rule="nonzero" rx="5"/>
+      <text fill="#FFF" font-family="Helvetica" font-size="10">
+        <tspan x="30.384" y="23.5">USER INTERFACE</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

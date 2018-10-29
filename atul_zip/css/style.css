@@ -52,11 +52,10 @@ h1{
 }
 .we-should-talk span{
     border-bottom: solid 6px #fd2e8c;
+
   padding:0.5em 0
 }
 .card-bg{
-  width: 374px;
-  height: 374px;
     background-color: #29262f;
 
 }
@@ -67,8 +66,6 @@ h1{
   font-style: normal;
   font-stretch: normal;
   line-height: 1.43;
-  margin-top: 1em;
-  text-align: center;
   letter-spacing: normal;
   color: #ffffff;
 
@@ -87,7 +84,6 @@ h1{
 .website {
    text-align: center;
     object-fit: contain;
-    text-align: center;
     text-transform: uppercase;
     margin-top: 1em;
     border-radius: 5px;
@@ -113,7 +109,7 @@ h1{
   .ux {
     text-transform: uppercase;
     text-align: center;
-
+  
      border-radius: 5px;
     
     background-image: linear-gradient(105deg, #fb8532, #fec731);
@@ -129,26 +125,25 @@ h1{
     text-align: center;
     object-fit: contain;
         text-transform: uppercase;
+
     border-radius: 5px;
     background-image: linear-gradient(105deg, #8d32f5, #61dec7);
   }
   .font-design{
-    
-    width: 92px;
-  height: 12px;
-  object-fit: contain;
-  font-family: Gotham;
-  font-size: 10px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
+    height: 9px;
+    text-align: center;
+    object-fit: contain;
+    font-family: Gotham;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; 
   }
   .card-services{
-  
       display: none;
   }
   .card-contact{
@@ -185,10 +180,17 @@ h1{
     /* vertical alignment of the inline element */
 
   }
-  .footer-text{
-    padding: 0em;
-    margin: 0em;
+  .atuldesigndrugco {
+    margin: 0 auto;
+    object-fit: contain;
+    font-family: Gotham;
+    align-content: center;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: #474747;
   }
-.size{
-  margin-top: 0.6em;
-}

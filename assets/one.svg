@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="152" viewBox="0 0 148 152">
+  <defs>
+    <linearGradient id="one-a" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#3BE1BD"/>
+      <stop offset="100%" stop-color="#1A96F1"/>
+    </linearGradient>
+    <linearGradient id="one-b" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#88DC35"/>
+      <stop offset="100%" stop-color="#25CEA7"/>
+    </linearGradient>
+    <linearGradient id="one-c" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5505F"/>
+      <stop offset="100%" stop-color="#9F026C"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="147.027" height="40" fill="url(#one-a)" fill-rule="nonzero" rx="5"/>
+    <text fill="#FFF" font-family="Helvetica" font-size="10">
+      <tspan x="47.663" y="25">WEBSITES</tspan>
+    </text>
+    <g transform="translate(0 56)">
+      <rect width="147.027" height="40" fill="url(#one-b)" fill-rule="nonzero" rx="5"/>
+      <text fill="#FFF" font-family="Helvetica" font-size="10">
+        <tspan x="45.608" y="25">BRANDING</tspan>
+      </text>
+    </g>
+    <g transform="translate(0 112)">
+      <rect width="147.027" height="40" fill="url(#one-c)" fill-rule="nonzero" rx="5"/>
+      <text fill="#FFF" font-family="Helvetica" font-size="10">
+        <tspan x="46.882" y="25">WEB APPS</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

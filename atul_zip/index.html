@@ -40,7 +40,7 @@
         <div class="col my-auto">
             <div class="row display " id="main-layout">
                 <div class="col-md-4"> </div>
-                <div class="col-md-8 card card-bg image-bg">
+                <div class="col-md-8 card card-bg ">
                     <div class="cald card-services" id="card-services">
                         <div class="card-body card-title align-items-center">
                             <h4>We create timeless products for all platform</h4>
@@ -48,12 +48,14 @@
                             <div class="underline align-self-center"></div>
                             <div class="row align-self-center">
                                 <div class="col">
-                                    <img class="size" src="assets/one.svg" alt="Design Drug">
-                                   
+                                    <p class=" website"><span class="font-design">Websites</span></p>
+                                    <p class="branding"><span class="font-design">branding</span></p>
+                                    <p class="web-apps"><span class="font-design">Web Apps</span></p>
                                 </div>
                                 <div class="col">
-                                        <img class="size" src="assets/two.svg" alt="Design Drug">
-
+                                    <p class="mobile-apps"><span class="font-design">Mobile Apps</span></p>
+                                    <p class="ux"><span class="font-design">User experience</span></p>
+                                    <p class="ui"><span class="font-design">User Interfaces</span></p>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +97,7 @@
 <footer class="page-footer font-small blue">
 
     <!-- Copyright -->
-    <div class="footer-copyright py-4"><span class="footer-text">This is a temporary website. We’re brewing something RAD. 🔥</span> 
+    <div class="footer-copyright py-3"><span class="footer-text">This is a temporary website. We’re brewing something RAD. 🔥</span> 
     </div>
     <!-- Copyright -->
   
@@ -124,39 +126,12 @@ weShouldTalk.addEventListener("mouseover", function () {
 
     }, 500);
 }, false);
-weShouldTalk.addEventListener("mouseout", function () {
-    // highlight the mouseover target
-    mainDesign.style.visibility = "hidden";
-        contactCard.style.display = "none";
-        servicesCard.style.display = "none";
-        
-        
-
-    
-    // reset the color after a short delay
-    setTimeout(function () {
-
-    }, 500);
-}, false);
 productDesign.addEventListener("mouseover", function () {
     // highlight the mouseover target
     mainDesign.style.visibility = "visible";
 
         contactCard.style.display = "none";
         servicesCard.style.display = "block";
-
-    
-    // reset the color after a short delay
-    setTimeout(function () {
-        
-    }, 500);
-}, false);
-productDesign.addEventListener("mouseout", function () {
-    // highlight the mouseover target
-    mainDesign.style.visibility = "hidden";
-
-        contactCard.style.display = "none";
-        servicesCard.style.display = "none";
 
     
     // reset the color after a short delay
