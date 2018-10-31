@@ -26,16 +26,19 @@
         </div>
     </nav>
 
-    <div class=" row h-75">
+    <div class="row h-75">
         <div class="col  my-auto ">
             <div class="col">
-                <h1 class="product-design-class">We are a <span class="product-design" id="product-design">product design</span> studio led
+                <h1 class="product-design-class">We are a <span class="product-design" id="product-design">product
+                        design</span> studio led
                     by two highly motivated deisgners</h1>
             </div>
             </br>
-            <div class="col padded-text">
-                <p class="we-should-talk"><span class="we" id="we-should-talk"> WE SHOULD TALK</p></span>
+            <div class="col-md-8 padded-text">
+                <p class="we-should-talk"><span class="we" id="we-should-talk" onclick="myFunction()"> <span id="click-underline">WE
+                            SHOULD TALK.&nbsp;&nbsp;</span></p></span>
             </div>
+            <div class="col-md-4"></div>
         </div>
         <div class="col my-auto">
             <div class="row display " id="main-layout">
@@ -49,10 +52,10 @@
                             <div class="row align-self-center">
                                 <div class="col">
                                     <img class="size" src="assets/one.svg" alt="Design Drug">
-                                   
+
                                 </div>
                                 <div class="col">
-                                        <img class="size" src="assets/two.svg" alt="Design Drug">
+                                    <img class="size" src="assets/two.svg" alt="Design Drug">
 
                                 </div>
                             </div>
@@ -68,10 +71,12 @@
                             <div class="row align-self-center">
                                 <div class="col">
                                     <div class="row email">
-                                        <img class="image-gmail" src="assets/contact.svg" alt="Design Drug">
+                                        <a href="mailto:atul@designdrug.co?Subject=Let's Talk <> Design Drug" target="_top">
+                                            <img class="image-gmail" src="assets/contact.svg" alt="Design Drug"> </a>
                                     </div>
                                     <div class="row email">
-                                        <img class="image-gmail" src="assets/whatspp.svg" alt="Design Drug">
+                                        <a href="https://api.whatsapp.com/send?text=Hey, Deign Drug!&phone=919867069236" target="_blank">
+                                        <img class="image-gmail" src="assets/whatspp.svg" alt="Design Drug"></a>
                                     </div>
                                 </div>
 
@@ -92,78 +97,86 @@
 
     </div>
     <!-- Footer -->
-<footer class="page-footer font-small blue">
+    <footer class="page-footer font-small blue">
 
-    <!-- Copyright -->
-    <div class="footer-copyright py-4"><span class="footer-text">This is a temporary website. We’re brewing something RAD. 🔥</span> 
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
+        <!-- Copyright -->
+        <div class="footer-copyright py-4"><span class="footer-text">This is a temporary website. We’re brewing
+                something RAD. 🔥</span>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 </body>
 <script>
-var weShouldTalk = document.getElementById("we-should-talk");
-var contactCard = document.getElementById("card-contact");
-var servicesCard = document.getElementById("card-services");
-var productDesign = document.getElementById("product-design");
-var mainDesign = document.getElementById("main-layout")
+    var weShouldTalk = document.getElementById("we-should-talk");
+    var contactCard = document.getElementById("card-contact");
+    var servicesCard = document.getElementById("card-services");
+    var productDesign = document.getElementById("product-design");
+    var mainDesign = document.getElementById("main-layout");
+    var clickUnderline = document.getElementById("click-underline");
 
 
-weShouldTalk.addEventListener("mouseover", function () {
-    // highlight the mouseover target
-    mainDesign.style.visibility = "visible";
+    weShouldTalk.addEventListener("click", function () {
+        // highlight the mouseover target
+        mainDesign.style.visibility = "visible";
         contactCard.style.display = "block";
         servicesCard.style.display = "none";
-        
-        
 
-    
-    // reset the color after a short delay
-    setTimeout(function () {
 
-    }, 500);
-}, false);
-weShouldTalk.addEventListener("mouseout", function () {
+
+
+        // reset the color after a short delay
+        setTimeout(function () {
+
+        }, 500);
+    }, false);
+    // weShouldTalk.addEventListener("mouseout", function () {
     // highlight the mouseover target
-    mainDesign.style.visibility = "hidden";
-        contactCard.style.display = "none";
-        servicesCard.style.display = "none";
-        
-        
+    //     mainDesign.style.visibility = "hidden";
+    //         contactCard.style.display = "none";
+    //         servicesCard.style.display = "none";
 
-    
-    // reset the color after a short delay
-    setTimeout(function () {
 
-    }, 500);
-}, false);
-productDesign.addEventListener("mouseover", function () {
-    // highlight the mouseover target
-    mainDesign.style.visibility = "visible";
+
+
+    //     // reset the color after a short delay
+    //     setTimeout(function () {
+
+    //     }, 500);
+    // }, false);
+    productDesign.addEventListener("mouseover", function () {
+        // highlight the mouseover target
+        mainDesign.style.visibility = "visible";
 
         contactCard.style.display = "none";
         servicesCard.style.display = "block";
+        clickUnderline.style.borderBottom = "";
 
-    
-    // reset the color after a short delay
-    setTimeout(function () {
-        
-    }, 500);
-}, false);
-productDesign.addEventListener("mouseout", function () {
-    // highlight the mouseover target
-    mainDesign.style.visibility = "hidden";
+
+
+        // reset the color after a short delay
+        setTimeout(function () {
+
+        }, 500);
+    }, false);
+    productDesign.addEventListener("mouseout", function () {
+        // highlight the mouseover target
+        mainDesign.style.visibility = "hidden";
+        clickUnderline.style.borderBottom = "";
 
         contactCard.style.display = "none";
         servicesCard.style.display = "none";
 
-    
-    // reset the color after a short delay
-    setTimeout(function () {
-        
-    }, 500);
-}, false);
+
+        // reset the color after a short delay
+        setTimeout(function () {
+
+        }, 500);
+    }, false);
+    function myFunction() {
+
+    }
 </script>
 
 </html>
